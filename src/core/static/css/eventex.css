@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+  background: #F3F3F3;
+  color: #6D6D6D;
+  text-decoration: none;
+}
+html,body,.content,.body,.site { 
+  height: auto;
+}
+
+a,div,tr,td,table,th,p,span,li,ul,h1,h2,h3,h4 { 
+  color: inherit;  
+  text-decoration: inherit;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+h1.logo { 
+	font-size: 80px;
+	letter-spacing: -10px;
+	text-shadow: 2px 2px 0 white;
+	font-weight: bold;
+	color: #2E5C8A;
+	margin: 0px;
+}
+h2.welcome { 
+	margin: 0px;
+	font-size: 28px;
+	text-shadow: 2px 2px 0 white;
+}
+
+.content { 
+	width: 700px;
+	margin: auto;
+}
+
+.content,.footer { 
+	text-align: center;
+	clear: both;
+}
+
+/** columns **/
+.columns.on-2 .column {
+  float: left;
+  width: 50%;
+}
+
+.columns.on-3 .column {
+  float: left;
+  width: 33%;
+}
+
+#box { 
+	margin-top: 20px;
+	font-size: 18px;
+	letter-spacing: -1px;
+	text-align: left;
+}
+p.abertura { 
+		margin-bottom: 50px;
+		font-size: 19px;
+		font-weight: bold;
+}
+p.abertura strong  { 
+	color: #B88A00;
+	font-size: 50px;
+	letter-spacing: -2px;
+}
+
+.footer { 
+	height: auto;
+	padding-top: 80px;
+}
+.footer h1 { 
+	color: #B5B5B5;
+	text-shadow: 2px 2px 0 white;
+	margin-bottom: 5px;
+}
